@@ -4,7 +4,7 @@ This project packages the most common free fonts with
 [fontnik](https://github.com/mapbox/fontnik) so you don't have to
 worry about [SDL](https://www.mapbox.com/blog/text-signed-distance-fields/)
 and [gzipped PBFs](https://github.com/mapbox/mapbox-gl-js/issues/830).
-The fonts are deployed to https://free.tilehosting.com/ which also supports concatenating fonts.
+The project based on https://github.com/openmaptiles/fonts.
 
 ## Configure Mapbox GL Style JSON
 
@@ -22,13 +22,14 @@ In order to use the fonts without a Mapbox API key edit your Mapbox GL Style JSO
 
 ## Supported Font Families
 
-The following fonts that are available in Mapbox Studio are supported.
+The following fonts are supported.
 
 * Noto Sans (patched by Klokan Technologies)
 * Open Sans
 * PT Sans
 * Roboto
 * Metropolis
+* Nunito
 
 ## Package the Fonts
 
